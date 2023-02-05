@@ -1,0 +1,29 @@
+.header-container {
+  background-image: url("../../Assets/pexels-quark-studio-3201920.jpg");
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+.dark-overlay {
+  background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 78.21%);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.header-inner-width {
+  width: 50%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .header-inner-width {
+    width: 90%;
+  }
+}
